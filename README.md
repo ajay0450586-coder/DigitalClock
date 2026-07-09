@@ -3,10 +3,10 @@
 A simple, responsive digital clock web app.
 
 ## Preview
-<image src="./assets/digitalClock.png"></image>
+<image src="digitalClock.png"></image>
 
 ## Demo
-[[!Demo] (./assets/digitalClock.mp4)] ([Preview] (./assets/digitalClock.png))
+[[!Demo] (digitalClock.mp4)] ([Preview] (digitalClock.png))
 
 ## Features
 - Live time updates every second
