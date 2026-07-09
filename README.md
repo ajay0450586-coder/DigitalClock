@@ -6,7 +6,7 @@ A simple, responsive digital clock web app.
 <image src="digitalClock.png"></image>
 
 ## Demo
-[[!Demo] (digitalClock.mp4)] ([Preview] (digitalClock.png))
+[![Demo](digitalClock.mp4)] ([Preview](digitalClock.png))
 
 ## Features
 - Live time updates every second
