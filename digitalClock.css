@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(65, 64, 64);
+}
+
+.clock-container {
+    background: black;
+    padding: 30px 40px;
+    border-radius: 20px;
+    /* box-shadow: 10px 10px 25px rgba(143, 4, 4, 0.1); */
+    box-shadow: 0 0 10px 10px rgba(178, 173, 173, 0.1);
+    text-align: center;
+
+}
+
+.clock-container h1 {
+    margin-bottom: 20px;
+    color: #B4E1EB;
+}
+
+.time {
+    font-size: 60px;
+    font-weight: bold;
+    color: #FF7873;
+    letter-spacing: 3px;
+
+}
+
+.date {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #FFB6A6;
+}
+
+#hours {
+    color: blueviolet;
+}
+
+#minutes {
+    color: #9BCEC1;
+}
+
+#seconds {
+    color: #FFEBD3
+}
+
+@media (max-width: 600px) {
+    .clock {
+        font-size: 40px;
+    }
+
+    .clock-container {
+        padding: 25px;
+    }
+}
